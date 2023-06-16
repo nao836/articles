@@ -1,0 +1,17 @@
+#header {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#main {
+    display: flex;
+    padding: 0 80px;
+
+    border: solid;
+}
+
+#left-sidebar {
+    min-width: 240px;
+    max-width: 320px;
+
+    border: solid;
+}
