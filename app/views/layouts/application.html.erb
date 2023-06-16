@@ -11,6 +11,14 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render partial: "shared/header" %>
+    
+    <div id='main'>
+      <%= render partial: "shared/left_sidebar" %>
+    
+      <div id='center-containts'>
+        <%= yield %>
+      </div>
+    </div>
   </body>
 </html>
