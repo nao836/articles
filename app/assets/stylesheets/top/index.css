@@ -1,10 +1,13 @@
 #header {
     border-bottom: 1px solid #e5e5e5;
+    margin: 0 0 20px 0;
+
+    border: solid;
 }
 
 #main {
     display: flex;
-    padding: 0 80px;
+    padding: 0 40px;
 
     border: solid;
 }
@@ -12,6 +15,15 @@
 #left-sidebar {
     min-width: 240px;
     max-width: 320px;
+
+    margin: 20px 20px 0 0;
+    padding-left: 4px;
+
+    border: solid;
+}
+
+#center-containts {
+    margin: 20px 20px 0 0;
 
     border: solid;
 }
