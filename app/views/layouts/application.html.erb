@@ -12,11 +12,11 @@
 
   <body>
     <%= render partial: "shared/header" %>
-    
+    <hr>
     <div id='main' class="d-flex">
       <%= render partial: "shared/left_sidebar" %>
     
-      <div id='center-containts'>
+      <div id='center-containts' class="container">
         <%= yield %>
       </div>
     </div>

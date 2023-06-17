@@ -1,0 +1,14 @@
+<div id="<%= dom_id article %>" class='article_cassette position-relative'>
+  <p>
+    <strong>Title:</strong>
+      <%= link_to article, class: "stretched-link" do %>
+        <%= article.title %>
+      <% end %>
+  </p>
+
+  <p>
+    <strong>Body:</strong>
+    <%= article.body %>
+  </p>
+
+</div>

@@ -1,3 +1,15 @@
-<div class='left-sidebar'>
-  left
+<div class="left-sidebar flex-column bg-light rounded">
+  <div class="align-items-center">
+    left sidebar
+  </div>
+  <hr>
+  <ul class="nav nav-pills flex-column">
+    <li>
+      <%= link_to 'TOP', root_path, class: "nav-link active"  %>
+    </li>
+
+    <li>
+      <%= link_to 'Articles', articles_path, class: "nav-link link-dark"  %>
+    </li>
+  </ul>
 </div>
