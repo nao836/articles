@@ -14,3 +14,7 @@
     <%= render partial: 'article_cassette', locals: {article: article} %>
   <% end %>
 </div>
+
+<div>
+  <%= paginate @articles %>
+</div>
